@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-entry--kitchen",
-      "name": "Entry & Kitchen",
+      "id": "0-entry",
+      "name": "Entry",
       "levels": [
         {
           "tileSize": 256,
@@ -24,23 +24,23 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": 2.7124212509284416,
-        "pitch": 0.03384450785455684,
+        "yaw": -0.02315232681216628,
+        "pitch": 0.010014311410952104,
         "fov": 1.3219339076578436
       },
       "linkHotspots": [
         {
-          "yaw": 2.052377606028342,
-          "pitch": 0.27470420083066927,
-          "rotation": 0.7853981633974483,
-          "target": "1-master-bedroom"
+          "yaw": 0.9613509635687087,
+          "pitch": 0.2381150073644882,
+          "rotation": 13.351768777756625,
+          "target": "2-master"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-master-bedroom",
-      "name": "Master Bedroom",
+      "id": "1-kitchen",
+      "name": "Kitchen",
       "levels": [
         {
           "tileSize": 256,
@@ -62,22 +62,53 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": -0.1476183904120365,
-        "pitch": 0.013313809591295467,
+        "yaw": -2.9107734350749226,
+        "pitch": 0.03915939917508027,
         "fov": 1.3219339076578436
       },
       "linkHotspots": [
         {
-          "yaw": 1.1800278197189513,
-          "pitch": 0.27810898602719014,
+          "yaw": 2.0831542454954937,
+          "pitch": 0.23506277961190492,
           "rotation": 0.7853981633974483,
-          "target": "2-bedroom-2"
+          "target": "2-master"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "2-bedroom-2",
+      "id": "2-master",
+      "name": "Master",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1344,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "3-bedroom-2",
       "name": "Bedroom 2",
       "levels": [
         {
@@ -100,22 +131,15 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": 0.18471604365419125,
-        "pitch": 0.005514711574214459,
+        "yaw": -0.25783523759083593,
+        "pitch": 0.12706136233229692,
         "fov": 1.3219339076578436
       },
-      "linkHotspots": [
-        {
-          "yaw": 0.5961533016255398,
-          "pitch": 0.14720133184572148,
-          "rotation": 1.5707963267948966,
-          "target": "3-bedroom-3"
-        }
-      ],
+      "linkHotspots": [],
       "infoHotspots": []
     },
     {
-      "id": "3-bedroom-3",
+      "id": "4-bedroom-3",
       "name": "Bedroom 3",
       "levels": [
         {
@@ -138,23 +162,23 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": -1.3649706716403287,
-        "pitch": 0.12364299174783078,
+        "yaw": 1.9066225242290802,
+        "pitch": 0.019621917860675353,
         "fov": 1.3219339076578436
       },
       "linkHotspots": [
         {
-          "yaw": -1.3183523573047715,
-          "pitch": 0.49734500186163544,
+          "yaw": -1.6167162917046802,
+          "pitch": 0.19861889753843087,
           "rotation": 0,
-          "target": "1-master-bedroom"
+          "target": "0-entry"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "4-backyard",
-      "name": "BackYard",
+      "id": "5-backyard",
+      "name": "Backyard",
       "levels": [
         {
           "tileSize": 256,
@@ -176,15 +200,15 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": 0.2611979905116826,
-        "pitch": 0.14562621220624195,
-        "fov": 1.3219339076578436
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [],
       "infoHotspots": []
     }
   ],
-  "name": "32 Brushbox Court Clayton",
+  "name": "32 Brushbox Ct Clayton",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
