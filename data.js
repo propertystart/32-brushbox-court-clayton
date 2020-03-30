@@ -33,44 +33,13 @@ var APP_DATA = {
           "yaw": 2.052377606028342,
           "pitch": 0.27470420083066927,
           "rotation": 0.7853981633974483,
-          "target": "2-master-bedroom"
+          "target": "1-master-bedroom"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-backyard",
-      "name": "BackYard",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1344,
-      "initialViewParameters": {
-        "yaw": 0.2611979905116826,
-        "pitch": 0.14562621220624195,
-        "fov": 1.3219339076578436
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-master-bedroom",
+      "id": "1-master-bedroom",
       "name": "Master Bedroom",
       "levels": [
         {
@@ -102,13 +71,13 @@ var APP_DATA = {
           "yaw": 1.1800278197189513,
           "pitch": 0.27810898602719014,
           "rotation": 0.7853981633974483,
-          "target": "3-bedroom-2"
+          "target": "2-bedroom-2"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "3-bedroom-2",
+      "id": "2-bedroom-2",
       "name": "Bedroom 2",
       "levels": [
         {
@@ -140,13 +109,13 @@ var APP_DATA = {
           "yaw": 0.5961533016255398,
           "pitch": 0.14720133184572148,
           "rotation": 1.5707963267948966,
-          "target": "4-bedroom-3"
+          "target": "3-bedroom-3"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "4-bedroom-3",
+      "id": "3-bedroom-3",
       "name": "Bedroom 3",
       "levels": [
         {
@@ -178,9 +147,40 @@ var APP_DATA = {
           "yaw": -1.3183523573047715,
           "pitch": 0.49734500186163544,
           "rotation": 0,
-          "target": "2-master-bedroom"
+          "target": "1-master-bedroom"
         }
       ],
+      "infoHotspots": []
+    },
+    {
+      "id": "4-backyard",
+      "name": "BackYard",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1344,
+      "initialViewParameters": {
+        "yaw": 0.2611979905116826,
+        "pitch": 0.14562621220624195,
+        "fov": 1.3219339076578436
+      },
+      "linkHotspots": [],
       "infoHotspots": []
     }
   ],
